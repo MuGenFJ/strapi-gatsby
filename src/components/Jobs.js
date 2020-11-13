@@ -47,7 +47,7 @@ const Jobs = () => {
           })}
         </div>
         {/* job info */}
-        <active className="job-info">
+        <article className="job-info">
           <h3>{position}</h3>
           <h4>{company}</h4>
           <p className="job-date">{date}</p>
@@ -61,7 +61,7 @@ const Jobs = () => {
               )
             })
           }
-        </active>
+        </article>
       </div>
       <Link to="/about" className="btn center-btn">
           more info
